@@ -3,7 +3,7 @@ import { PropTypes } from "prop-types";
 
 export const FirtsApp = ({
     texto,
-     subTitle = `trabajar`,
+     subTitle,
      nombre 
     })=>{
     // console.log(props);

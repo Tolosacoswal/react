@@ -3,4 +3,5 @@
        
         "^.+\\.(js|jsx)$": "babel-jest"
       }
+      
 }

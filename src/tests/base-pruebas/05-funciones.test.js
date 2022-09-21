@@ -19,7 +19,7 @@ import { getUser,getUsuarioActivo } from "../../base-pruebas/05-funciones";
     const user = getUsuarioActivo( name );
                  console.log (user)
                 expect( user).toStrictEqual({
-                    uid:`ABC5kkkkk67`,
+                    uid:`ABC567`,
                     username:name
                 });
   })

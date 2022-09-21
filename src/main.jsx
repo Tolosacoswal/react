@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import { FirtsApp } from './FirtsApp';
+ import { FirtsApp } from './FirtsApp';
 import { CounterApp } from "./CounterApp";
 //import { Primer } from './primer';
 
@@ -11,9 +11,9 @@ ReactDOM.createRoot(document.getElementById ("root")).render(
     <React.StrictMode>
         
 
-       
+       <FirtsApp texto="hola, soy vegueta"/>
 
-        <CounterApp value={20}  />
+        {/* <CounterApp value={20}  /> */}
 
         
     </React.StrictMode>
