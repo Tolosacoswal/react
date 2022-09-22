@@ -1,11 +1,14 @@
 import { render } from "@testing-library/react";
-import { FirtsApp } from "../FirtsApp";
+//import { renderIntoDocument } from "react-dom/test-utils";
+import { FirstApp } from "../FirstApp";
 
-describe('pruebas en <firstApp/>', () => {  
+describe('pruebas en <FirstApp/>', () => {  
 
 
     test('debe hacer match con el snapshot ', () => {
-    render (<FirtsApp/>)
+    const texto = `hola, soy vegueta`;
+       const {container} =(<FirstApp texto={texto}/>)
+       console.log(container);
      });
 
-});
+}); 

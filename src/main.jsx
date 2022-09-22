@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
- import { FirtsApp } from './FirtsApp';
-import { CounterApp } from "./CounterApp";
+ import { FirstApp } from './FirstApp';
+//import { CounterApp } from "./CounterApp";
 //import { Primer } from './primer';
 
 
 import "./estilos.css";
 
-ReactDOM.createRoot(document.getElementById ("root")).render(
+ ReactDOM.createRoot(document.getElementById ("root")).render(
     <React.StrictMode>
         
 
-       <FirtsApp texto="hola, soy vegueta"/>
+       <FirstApp texto="hola, estoy ofenzo"/>
 
         {/* <CounterApp value={20}  /> */}
 

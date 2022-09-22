@@ -1,7 +1,7 @@
 
 import { PropTypes } from "prop-types";
 
-export const FirtsApp = ({
+export const FirstApp = ({
     texto,
      subTitle,
      nombre 
@@ -21,11 +21,11 @@ export const FirtsApp = ({
     
     
 }
-FirtsApp.prototype={
+FirstApp.prototype={
     texto: PropTypes.string.isRequired, 
     subTitle:PropTypes.string,
 }
-FirtsApp.defaultProps = {
+FirstApp.defaultProps = {
     texto: "no tenemos ningun texto",
     subTitle: "no tenemos texto",
     nombre: "edgard"
