@@ -1,5 +1,7 @@
 import { useState} from 'react'
 import { PropTypes } from "prop-types";
+import { render } from '@testing-library/react';
+import JSDOMEnvironment from 'jest-environment-jsdom';
 
 
 
@@ -16,6 +18,8 @@ const handleReset = () => setCounter(value);
 
 
   
+ 
+  
   
   return (
     <>
@@ -25,12 +29,7 @@ const handleReset = () => setCounter(value);
     <button onClick={ handleAdd }>+1</button>
     <button onClick={ handleSubstarct }>-1</button>
     <button onClick={ handleReset }>reset</button>
-
     
-
-
-
-
     </>
   )
 }
