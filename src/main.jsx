@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//  import { FirstApp } from './FirstApp';
 import { CounterApp } from "./CounterApp";
-//import { Primer } from './primer';
 
+//import { Primer } from './primer';
+//  import { FirstApp } from './FirstApp';
 
 import "./estilos.css";
 

@@ -28,7 +28,7 @@ const handleReset = () => setCounter(value);
     
     <button onClick={ handleAdd }>+1</button>
     <button onClick={ handleSubstarct }>-1</button>
-    <button onClick={ handleReset }>reset</button>
+    <button aria-label='boton-reset' onClick={ handleReset }>reset</button>
     
     </>
   )
